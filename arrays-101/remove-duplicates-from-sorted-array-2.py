@@ -12,7 +12,7 @@ class Solution:
                 count += 1
                 p1 = nums[index]
             else:
-                nums.pop(index)
+                del nums[index]
             index -= 1
 
         return count
